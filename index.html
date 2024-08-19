@@ -23,6 +23,7 @@
       },
     };
   </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="font-manrope">
@@ -136,7 +137,6 @@
       </div>
     </section>
     <!-- featured product section end -->
-
 
     <!-- green tea section start -->
     <section class="grid grid-cols-1 gap-10 w-11/12 h-auto mx-auto mt-14">
@@ -257,7 +257,7 @@
         <div class="w-4/5 px-4 py-2 mx-auto border border-1 border-[#D2D2D2] h-auto rounded-lg">
           <!-- card image -->
           <div class="w-11/12 mx-auto">
-            <img src="images/news-1.png" alt="Tea Packet">
+            <img class="w-full" src="images/news-1.png" alt="Tea Packet">
           </div>
 
           <!-- card content -->
@@ -277,7 +277,7 @@
         <div class="w-4/5 px-4 py-2 mx-auto border border-1 border-[#D2D2D2] h-auto rounded-lg">
           <!-- card image -->
           <div class="w-11/12 mx-auto">
-            <img src="images/news-2.png" alt="Tea Packet">
+            <img class="w-full" src="images/news-2.png" alt="Tea Packet">
           </div>
 
           <!-- card content -->
@@ -297,7 +297,7 @@
         <div class="w-4/5 px-4 py-2 mx-auto border border-1 border-[#D2D2D2] h-auto rounded-lg">
           <!-- card image -->
           <div class="w-11/12 mx-auto">
-            <img src="images/news-3.png" alt="Tea Packet">
+            <img class="w-full" src="images/news-3.png" alt="Tea Packet">
           </div>
 
           <!-- card content -->
@@ -315,8 +315,70 @@
       </div>
     </section>
     <!-- news section end -->
-
   </main>
+  <!-- footer container starts here -->
+  <footer class="w-full h-auto mt-12 bg-gradient-to-r from-[#fff0e9] to-[#ffe6e6]">
+    <!-- footer content -->
+    <div class="w-11/12 mx-auto pb-4">
+      <!-- footer upper section -->
+      <div>
+        <div class="w-8 mx-auto pt-5">
+          <img src="images/cup.png" alt="Cup Logo">
+        </div>
+        <div class="flex justify-between items-center mt-5">
+          <h3>Ready to get started?</h3>
+          <button
+          class="flex justify-center items-center w-28 h-10 p-0 bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white rounded-lg">
+          Explore More
+        </button>
+        </div>
+
+      </div>
+      
+      <!-- footer middle section -->
+      <div class="grid grid-cols-2 gap-6 mt-8">
+        <div>
+          <h5 class="text-sm font-bold">Quick Links</h5>
+          <p class="text-xs cursor-pointer text-[#494949] mt-2">Home</p>
+          <p class="text-xs cursor-pointer text-[#494949]">About Us</p>
+          <p class="text-xs cursor-pointer text-[#494949]">Insurance</p>
+          <p class="text-xs cursor-pointer text-[#494949]">Privacy Policy</p>
+        </div>
+
+        <div>
+          <h5 class="text-sm font-bold">Our Service</h5>
+          <p class="text-xs cursor-pointer text-[#494949] mt-2">Life Insurance</p>
+          <p class="text-xs cursor-pointer text-[#494949]">Car Insurance</p>
+          <p class="text-xs cursor-pointer text-[#494949]">Health Insurance</p>
+          <p class="text-xs cursor-pointer text-[#494949]">House Insurance</p>
+        </div>
+
+        <div>
+          <h5 class="text-sm font-bold">Help</h5>
+          <p class="text-xs cursor-pointer text-[#494949] mt-2">FAQs</p>
+          <p class="text-xs cursor-pointer text-[#494949]">Contact Us</p>
+        </div>
+        
+        <div>
+          <h5 class="text-base font-bold">Subscribe to our newsletter</h5>
+          <form class="flex justify-between gap-2 w-11/12 mt-2">
+            <input class="w-full outline-none border-none bg-[#fff0e9] rounded-lg" type="email" placeholder="Email address">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-full text-white p-1">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </form>
+          <div class="w-11/12 space-x-3 mt-3">  
+            <i class="cursor-pointer fa-brands fa-facebook-f"></i>
+            <i class="cursor-pointer fa-brands fa-twitter"></i>
+            <i class="cursor-pointer fa-brands fa-square-instagram"></i>
+          </div>
+          
+        </div>
+      </div>
+      <p class="w-full text-sm text-[#494949] text-center mt-4">© 2027 UIDesign.to - All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- footer container ends here -->
 </body>
 
 </html>
